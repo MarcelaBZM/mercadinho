@@ -1,0 +1,231 @@
+/* RESET e configurações básicas */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background: url("{{ asset('images/plano_de_fundo.jpg') }}") no-repeat center center fixed;
+    background-size: cover;
+    color: #333;
+}
+
+/* Navbar com cores base */
+.navbar {
+    background-color: #437a36;  /* cor 1 */
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+    color: #fff !important;
+    font-weight: bold;
+}
+
+.navbar .nav-link:hover {
+    color: #88c178 !important; /* cor 5 para hover */
+}
+
+/* Container principal com fundo branco (para contraste) */
+.container {
+    background: rgba(255, 255, 255, 0.95);
+    padding: 20px;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+/* Cabeçalhos */
+h1, h2, h3, h4, h5, h6 {
+    color: #437a36;
+}
+
+/* Botões customizados */
+.btn-custom {
+    background-color: #548c47;  /* cor 2 */
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease, transform 0.2s;
+}
+
+.btn-custom:hover {
+    background-color: #659e57; /* cor 3 */
+    transform: scale(1.05);
+}
+
+/* Tabelas customizadas */
+.table-custom {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.table-custom th {
+    background-color: #77af68; /* cor 4 */
+    color: #fff;
+    padding: 12px;
+    text-align: center;
+}
+
+.table-custom td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+}
+
+.table-custom tr:hover {
+    background-color: rgba(255, 255, 255, 0.7);
+}
+
+/* Formulários */
+.form-control {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.form-control:focus {
+    border-color: #88c178;
+    box-shadow: 0 0 5px rgba(136, 193, 120, 0.5);
+}
+
+/* Rodapé */
+footer {
+    background-color: #437a36;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+body {
+    background: url("{{ asset('images/plano_de_fundo.jpg') }}") no-repeat center center fixed;
+    background-size: cover;
+}
+
+/* Botões de Adição/Criação personalizados */
+.btn-add {
+    background-color: #548c47 !important; /* Verde pastel, mesmo tom dos botões customizados */
+    border-color: #548c47 !important;
+    color: #fff !important;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btn-add:hover {
+    background-color: #659e57 !important;
+    border-color: #659e57 !important;
+}
+
+/* Estilização dos títulos das páginas */
+.page-title {
+    font-weight: bold;
+    font-size: 2rem; /* Ajuste conforme necessário */
+    color: #2E7D32; /* Verde escuro para um toque profissional */
+    margin-bottom: 20px;
+}
+/* Estilização dos títulos */
+.page-title {
+    font-weight: bold;
+    font-size: 2rem;
+    color: #2E7D32; /* Verde escuro para um toque profissional */
+    margin-bottom: 20px;
+}
+
+/* Botões de adição/criação (para cadastrar novos itens) */
+.btn-add {
+    background-color: #548c47 !important; /* Verde pastel / tom frio */
+    border-color: #548c47 !important;
+    color: #fff !important;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.btn-add:hover {
+    background-color: #659e57 !important;
+    border-color: #659e57 !important;
+}
+
+/* Botões para editar */
+.btn-editar {
+    background-color: #A5D6A7 !important; /* Verde pastel */
+    border-color: #A5D6A7 !important;
+    color: #2E7D32 !important;
+}
+
+.btn-editar:hover {
+    background-color: #81C784 !important;
+}
+
+/* Botões para excluir */
+.btn-excluir {
+    background-color: #E57373 !important; /* Vermelho pastel */
+    border-color: #E57373 !important;
+    color: #fff !important;
+}
+
+.btn-excluir:hover {
+    background-color: #EF9A9A !important;
+}
+
+/* Ajuste para as imagens dos produtos */
+.produto-imagem {
+    width: 100px;
+    height: auto;
+}
+
+/* Títulos das páginas */
+.page-title {
+    font-weight: bold;
+    font-size: 2rem;
+    color: #2E7D32; /* Verde escuro para um toque profissional */
+    margin-bottom: 20px;
+}
+
+/* Botões de adição/criação */
+.btn-add {
+    background-color: #548c47 !important; /* Verde pastel / tom frio */
+    border-color: #548c47 !important;
+    color: #fff !important;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.btn-add:hover {
+    background-color: #659e57 !important;
+    border-color: #659e57 !important;
+}
+
+/* Botões para editar */
+.btn-editar {
+    background-color: #A5D6A7 !important; /* Verde pastel */
+    border-color: #A5D6A7 !important;
+    color: #2E7D32 !important;
+}
+.btn-editar:hover {
+    background-color: #81C784 !important;
+}
+
+/* Botões para excluir */
+.btn-excluir {
+    background-color: #E57373 !important; /* Vermelho pastel */
+    border-color: #E57373 !important;
+    color: #fff !important;
+}
+.btn-excluir:hover {
+    background-color: #EF9A9A !important;
+}
+
+/* Imagens dos produtos */
+.produto-imagem {
+    width: 100px;
+    height: auto;
+}

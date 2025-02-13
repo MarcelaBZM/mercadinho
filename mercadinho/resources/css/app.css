@@ -1,0 +1,169 @@
+/* Resetando margens e padding padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f7f7f7;  /* Fundo mais claro para destaque */
+    color: #333; /* Cor do texto */
+}
+
+/* Navbar */
+.navbar {
+    background-color: #28a745;  /* Verde vibrante para destacar */
+}
+
+.navbar .navbar-brand, .navbar-nav .nav-link {
+    color: white !important;
+}
+
+.navbar .navbar-nav .nav-link:hover {
+    color: #f39c12 !important;  /* Dourado suave para o hover */
+}
+
+/* Container principal */
+.container {
+    padding: 30px;
+    background-color: #fff;  /* Fundo branco para a área central */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    margin-top: 30px;
+}
+
+/* Cabeçalhos */
+h1, h2, h3 {
+    color: #2d3436; /* Cor escura para os títulos */
+}
+
+/* Botões */
+.btn-success {
+    background-color: #2ecc71;  /* Verde suave */
+    border-color: #27ae60;
+    color: white;
+}
+
+.btn-success:hover {
+    background-color: #27ae60;
+    border-color: #2ecc71;
+}
+
+.btn-danger {
+    background-color: #e74c3c;
+    border-color: #c0392b;
+    color: white;
+}
+
+.btn-danger:hover {
+    background-color: #c0392b;
+    border-color: #e74c3c;
+}
+
+/* Tabelas */
+table {
+    width: 100%;
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 12px 20px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f0f3f4;  /* Fundo suave para os títulos da tabela */
+    color: #2d3436;
+}
+
+td {
+    background-color: #fff;
+}
+
+td:hover {
+    background-color: #f0f3f4; /* Efeito suave no hover das células */
+}
+
+/* Inputs, selects e textareas */
+input, select, textarea {
+    background-color: #ecf0f1;  /* Fundo claro */
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    padding: 12px;
+    width: 100%;
+}
+
+input:focus, select:focus, textarea:focus {
+    border-color: #2ecc71;
+    box-shadow: 0 0 5px rgba(39, 174, 96, 0.5);
+}
+
+/* Formulários e botão de submit */
+.form-control {
+    font-size: 16px;
+}
+
+button[type="submit"] {
+    background-color: #f39c12;  /* Amarelo suave para destaque */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #e67e22;
+}
+
+footer {
+    background-color: #28a745;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    margin-top: 30px;
+}
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    background: #fff;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #28a745; /* Verde principal */
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #28a745 !important;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #218838 !important;
+}
+
+table {
+    background-color: white;
+    border-radius: 8px;
+}
+
+th {
+    background-color: #28a745 !important;
+    color: white !important;
+}
+
